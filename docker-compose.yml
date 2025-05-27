@@ -19,8 +19,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     environment:
-      - NODE_ENV=development
-      - VITE_API_URL=http://localhost:8000
+      - NODE_ENV=docker
+      - VITE_API_URL=http://backend:80
     image: sw-frontend
     ports:
       - "3000:3000"

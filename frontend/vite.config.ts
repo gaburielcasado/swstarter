@@ -6,6 +6,9 @@ export default ({ mode }) => {
   // load the correct .env file
   const env = loadEnv(mode, process.cwd(), 'VITE_');
 
+  const viteApiUrl = env.VITE_API_URL;
+  console.log(`Using API URL: ${viteApiUrl}`);
+
   return defineConfig({
     plugins: [react()],
     server: {

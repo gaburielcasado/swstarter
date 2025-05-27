@@ -17,3 +17,7 @@ git clone git@github.com:gaburielcasado/swstarter.git
 cd swstarter
 ./start.sh
 ```
+
+Access the frontend at http://localhost:3000
+
+Hit the stats endpoint: http://localhost:8000/api/stats

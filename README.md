@@ -8,14 +8,12 @@
 
 ## Getting Started
 
-### 1. Clone the repository
+### Clone the repository and run the app
+
+Make sure Docker is installed and running.
 
 ```bash
 git clone git@github.com:gaburielcasado/swstarter.git
 cd swstarter
+./start.sh
 ```
-
-### 2. Run the app
-Make sure Docker is installed and running.
-
-`./start.sh`

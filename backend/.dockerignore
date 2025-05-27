@@ -1,0 +1,8 @@
+vendor
+.dockerignore
+.editorconfig
+.gitattributes
+.gitignore
+docker-compose.yml
+storage/*.sqlite
+Dockerfile
